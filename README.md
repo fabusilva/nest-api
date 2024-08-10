@@ -6,22 +6,18 @@
 $ npm install
 ```
 
-### Prisma
-* Inicialize o Prisma no projeto (necessário apenas na primeira vez que o projeto for clonado):
-```bash
-$ npx prisma init
-```
-
-* Gere os artefatos do Prisma (como os clientes de banco de dados):
-```bash
-$ npx prisma generate
-```
-
 ## Variaveis de ambiente
 
 Mude o nome do arquivo `.env.copy` para `.env` e preencha a variavel `DATABASE_URL` com a url do seu banco de dados.
 
 ---
+
+### Prisma
+
+* Gere os artefatos do Prisma (como os clientes de banco de dados):
+```bash
+$ npx prisma generate
+```
 
 ## Rodar o projeto
 
